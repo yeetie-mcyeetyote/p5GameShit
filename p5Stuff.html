@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <script src="p5.min.js"></script>
+    
+  </head>
+  <body>
+    <script>
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var r;
+    var g;
+    var b;
+    var posX = w/2;
+    var posY = h/2;
+    var posX1 = w/2;
+    var posY1 = h/2;
+    var posX2 = w/2;
+    var posy2 = h/2;
+    var posX3 = w/2;
+    var posY3 = h/2;
+    var posX4 = w/2;
+    var posY4 = h/2;
+    var posX5 = w/2;
+    var posY5 = h/2;
+    var posX6 = w/2;
+    var posY6 = h/2;
+    var posX7 = w/2;
+    var posY7 = h/2;
+    var posX8 = w/2;
+    var posY8 = h/2;
+    var posX9 = w/2;
+    var posY9 = h/2;
+    var posX10 = w/2;
+    var posY10 = h/2;
+      function setup() {
+        createCanvas(w, h);
+      }
+      
+      function draw() {
+        r = random(256);
+        g = random(256);
+        b = random(256);
+        //background(color(255,105,180));
+        //elipse value 1 = start pos x
+        //elipse value 2 = start pos y
+        //elipse value 3 = radius of x
+        //elipse value 4 = radius of y
+        strokeWeight(0.5);
+        fill(color(r, g, b));
+        var randX = random(-5, 6);
+        var randY = random(-5, 6);
+        var randX1 = random(-5, 6);
+        var randY1 = random(-5, 6);
+        var randX2 = random(-5, 6);
+        var randY2 = random(-5, 6);
+        var randX3 = random(-5, 6);
+        var randY3 = random(-5, 6);
+        var randX4 = random(-5, 6);
+        var randY4 = random(-5, 6);
+        var randX5 = random(-5, 6);
+        var randY5 = random(-5, 6);
+        var randX6 = random(-5, 6);
+        var randY6 = random(-5, 6);
+        var randX7 = random(-5, 6);
+        var randY7 = random(-5, 6);
+        var randX8 = random(-5, 6);
+        var randY8 = random(-5, 6);
+        var randX9 = random(-5, 6);
+        var randY9 = random(-5, 6);
+        var randX10 = random(-5, 6);
+        var randY10 = random(-5, 6);
+        posX += randX;
+        posY += randY;
+        posX1 += randX1;
+        posY1 += randY1;
+        posX2 += randX2;
+        posY2 += randY2;
+        posX3 += randX3;
+        posY3 += randY3;
+        posX4 += randX4;
+        posY4 += randY4;
+        posX5 += randX5;
+        posY5 += randY5;
+        posX6 += randX6;
+        posY6 += randY6;
+        posX7 += randX7;
+        posY7 += randY7;
+        posX8 += randX8;
+        posY8 += randY8;
+        posX9 += randX9;
+        posY9 += randY9;
+        posX10 += randX10;
+        posY10 += randY10;
+        rect(posX,posY,10,10);
+        rect(posX1,posY1,10,10);
+        rect(posX2,posY2,10,10);
+        rect(posX3,posY3,10,10);
+        rect(posX4,posY4,10,10);
+        rect(posX5,posY5,10,10);
+        rect(posX6,posY6,10,10);
+        rect(posX7,posY7,10,10);
+        rect(posX8,posY8,10,10);
+        rect(posX9,posY9,10,10);
+        rect(posX10,posY10,10,10);
+        
+        
+        
+      }
+      
+      
+      
+    </script>
+  </body>
+</html>
